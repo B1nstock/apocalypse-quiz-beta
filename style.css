@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300;400&display=swap');
+
+*{
+    font-family: 'RobotMono',sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+section{
+    width: 600px;
+}
+
+h1{ 
+    font-size: 30px;
+    
+    text-align: left;
+}
+h2{
+    font-size: 50px;
+    text-align: center;
+}
+
+p{
+    font-size: 15px;
+}
+.title-block{
+    width: 600px;
+    height: 210px;
+    background-color:rgb(223, 180, 176);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    color:rgb(92, 255, 154);
+}
+.answer-options {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 16px 0 23px 0;
+}
+.answer-block{
+    width: 286px;
+    height: 286px;
+    border-radius: 5px;
+    box-shadow: rgb(0,0,0, 0.07) 0 0 0 1px;
+    text-align: center;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.answer-block img{
+    width: 100%;
+}
+
+.result-block p{
+font-size: 11px;
+font-style: italic;
+}
+.result-block{
+    width: 600px;
+    background-color: rgb(223, 180, 176) ;
+    border-radius: 5px;
+    border-color:rgb(223, 180, 176);
+}
+
+.result-block img{
+    width: 50%;
+    text-align: end;
+}
+
+
+
